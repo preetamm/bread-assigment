@@ -1,0 +1,22 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$utilities: () !default;
+
+$utilities: (
+  'height': (
+    property: height,
+    class: h,
+    values: (
+      0: 0,
+      1: 1rem,
+      2: 2rem,
+      3: 3rem,
+      40: 40px,
+
+    ),
+  ),
+);
