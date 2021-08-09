@@ -1,7 +1,6 @@
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/utilities";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
 
 
 $utilities: () !default;
@@ -16,7 +15,14 @@ $utilities: (
       2: 2rem,
       3: 3rem,
       40: 40px,
-
     ),
   ),
+  "viewport-height": (
+    property: height,
+    class: vh,
+    values: (80: 80vh, 100: 100vh)
+  ),
+ 
 );
+
+@import "~bootstrap/scss/bootstrap.scss";

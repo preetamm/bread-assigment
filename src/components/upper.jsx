@@ -18,7 +18,7 @@ const Upper = () => {
                     </div>
                 </NavItem>
             </div>
-            <div className="title position-absolute fs-1 ">
+            <div className="title position-absolute  fs-1 ">
                Start your day with the goodness of Yoga
             </div>
         </section>
